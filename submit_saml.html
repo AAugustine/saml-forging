@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form method="POST" action="https://app.login.corp.us/saml/module.php/saml/sp/saml2-acs.php/login-saml">
+      <input type="hidden" name="SAMLResponse" value="SAML_RESPONSE_GOES_HERE"/>
+
+        <input type="hidden" name="RelayState" value="http://app.login.corp.us/route.php"/>
+      <input type="submit" value="Submit SAML Assertion">
+    </form>
+  </body>
+</html>
